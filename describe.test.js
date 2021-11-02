@@ -2,7 +2,10 @@ const sum = require('./sum');
 const {fetchDataSuccess, fetchDataFail} = require('./fetchData');
 
 
-
+// test.only('this will be the only test that runs', () => {
+//   console.log('123123')
+//   expect(true).toBe(true);
+// });
 
 // test('adds 1 + 2 to equal 3', () => {
 //   console.log('test adds 1 + 2 to equal 3')
